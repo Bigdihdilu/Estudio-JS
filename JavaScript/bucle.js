@@ -6,7 +6,16 @@
 
 //while
 
+// let i = 0;
+// while (i < 7){
+//     console.log(i)
+//     i++;
+// }
+
+// do while
+
 let i = 0;
-while (i < 7){
+do{
+    i = i + 2
     console.log(i)
-}
+}while ( i < 20);
