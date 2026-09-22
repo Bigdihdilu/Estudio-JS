@@ -1,7 +1,5 @@
-var a = 10;
-if (5 > a) {
-    console.log('SI ES MAYOR')
-}
-else {
-    console.log('NO ES MAYOR')
-}
+var a = 22;
+var b = 20;
+if (a > b) (
+    console.log(`22 si es mayor a: 20`)
+)
