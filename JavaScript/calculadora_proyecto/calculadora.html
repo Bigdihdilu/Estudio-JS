@@ -33,16 +33,19 @@
 
             <div>
                 <input type="button" id="cero" value="0" onclick="valor(document.getElementById('cero').value)">
-                <input type="button" id="punto" value="." onclick="valor(document.getElementById('punto').value)">
-                <input type="button" id="igual" value="=" onclick="valor(document.getElementById('display').value)">
-                <input type="button" id="division" value="/" onclick="valor(document.getElementById('division').value)">
+                <input type="button" id="decimal" value="." onclick="valor(document.getElementById('decimal').value)">
+                <input type="button" id="div" value="/" onclick="valor(document.getElementById('div').value)">
+                <input type="button" id="porc" value="%" onclick="valor(document.getElementById('porc').value)">
 
         </form>
 
 
     </div>
+    <div class="resultado">
+        <input type="button" id="igual" value="=" onclick="cal_resultado()">
+        <button type="button" id="borrar" value="" onclick="borrardisplay(document.getElementById('borrar').value)">BORRAR  </button>
+    </div>
     
-
     <script src="cal.js"></script>
 </body>
 </html>
